@@ -76,6 +76,7 @@
                                     </div>
                                 @enderror
                             </div>
+                           
                             <div class="form-group">
                                 <label class="form-label">Category</label>
                                 <div class="selectgroup w-100">
