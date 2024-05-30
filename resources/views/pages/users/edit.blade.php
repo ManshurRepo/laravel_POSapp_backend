@@ -30,7 +30,7 @@
 
 
                 <div class="card">
-                    <form action="{{ route('user.update', $user) }}" method="POST">
+                    <form action="{{ route('users.update', $user) }}" method="POST">
                         @csrf
                         @method('PUT')
                         <div class="card-header">
@@ -63,7 +63,7 @@
                                     </div>
                                 @enderror
                             </div>
-                           
+
                             <div class="form-group">
                                 <label>Phone</label>
                                 <input type="number" class="form-control" name="phone" value="{{ $user->phone }}">
